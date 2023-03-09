@@ -1,0 +1,94 @@
+pip install "tensorflow<2.11"
+Collecting tensorflow<2.11
+  Downloading tensorflow-2.10.1-cp310-cp310-win_amd64.whl (455.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 455.9/455.9 MB 793.9 kB/s eta 0:00:00
+Requirement already satisfied: packaging in d:\m\python\lib\site-packages (from tensorflow<2.11) (23.0)
+Requirement already satisfied: numpy>=1.20 in d:\m\python\lib\site-packages (from tensorflow<2.11) (1.24.2)
+Collecting keras-preprocessing>=1.1.1
+  Downloading Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.6/42.6 kB ? eta 0:00:00
+Collecting tensorflow-estimator<2.11,>=2.10.0
+  Downloading tensorflow_estimator-2.10.0-py2.py3-none-any.whl (438 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 438.7/438.7 kB 4.6 MB/s eta 0:00:00
+Collecting grpcio<2.0,>=1.24.3
+  Downloading grpcio-1.51.3-cp310-cp310-win_amd64.whl (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 14.0 MB/s eta 0:00:00
+Collecting gast<=0.4.0,>=0.2.1
+  Downloading gast-0.4.0-py3-none-any.whl (9.8 kB)
+Collecting libclang>=13.0.0
+  Downloading libclang-15.0.6.1-py2.py3-none-win_amd64.whl (23.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.2/23.2 MB 15.6 MB/s eta 0:00:00
+Collecting typing-extensions>=3.6.6
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting opt-einsum>=2.3.2
+  Downloading opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB ? eta 0:00:00
+Collecting termcolor>=1.1.0
+  Downloading termcolor-2.2.0-py3-none-any.whl (6.6 kB)
+Collecting h5py>=2.9.0
+  Downloading h5py-3.8.0-cp310-cp310-win_amd64.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 21.0 MB/s eta 0:00:00
+Requirement already satisfied: six>=1.12.0 in d:\m\python\lib\site-packages (from tensorflow<2.11) (1.16.0)
+Collecting tensorboard<2.11,>=2.10
+  Downloading tensorboard-2.10.1-py3-none-any.whl (5.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.9/5.9 MB 17.9 MB/s eta 0:00:00
+Collecting protobuf<3.20,>=3.9.2
+  Downloading protobuf-3.19.6-cp310-cp310-win_amd64.whl (895 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 895.7/895.7 kB 19.2 MB/s eta 0:00:00
+Collecting wrapt>=1.11.0
+  Downloading wrapt-1.15.0-cp310-cp310-win_amd64.whl (36 kB)
+Collecting absl-py>=1.0.0
+  Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.5/126.5 kB 7.3 MB/s eta 0:00:00
+Collecting google-pasta>=0.1.1
+  Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 kB ? eta 0:00:00
+Collecting flatbuffers>=2.0
+  Downloading flatbuffers-23.3.3-py2.py3-none-any.whl (26 kB)
+Collecting keras<2.11,>=2.10.0
+  Downloading keras-2.10.0-py2.py3-none-any.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 15.4 MB/s eta 0:00:00
+Collecting tensorflow-io-gcs-filesystem>=0.23.1
+  Downloading tensorflow_io_gcs_filesystem-0.31.0-cp310-cp310-win_amd64.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 18.9 MB/s eta 0:00:00
+Collecting astunparse>=1.6.0
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: setuptools in d:\m\python\lib\site-packages (from tensorflow<2.11) (63.2.0)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in d:\m\python\lib\site-packages (from astunparse>=1.6.0->tensorflow<2.11) (0.37.1)
+Requirement already satisfied: requests<3,>=2.21.0 in d:\m\python\lib\site-packages (from tensorboard<2.11,>=2.10->tensorflow<2.11) (2.28.2)
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.4.1-py3-none-any.whl (93 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.3/93.3 kB ? eta 0:00:00
+Collecting tensorboard-plugin-wit>=1.6.0
+  Downloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 781.3/781.3 kB 16.4 MB/s eta 0:00:00
+Collecting tensorboard-data-server<0.7.0,>=0.6.0
+  Downloading tensorboard_data_server-0.6.1-py3-none-any.whl (2.4 kB)
+Collecting werkzeug>=1.0.1
+  Downloading Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 233.6/233.6 kB 14.9 MB/s eta 0:00:00
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Using cached google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: google-auth<3,>=1.6.3 in d:\m\python\lib\site-packages (from tensorboard<2.11,>=2.10->tensorflow<2.11) (2.16.2)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in d:\m\python\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.11,>=2.10->tensorflow<2.11) (0.2.8)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in d:\m\python\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.11,>=2.10->tensorflow<2.11) (5.3.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in d:\m\python\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.11,>=2.10->tensorflow<2.11) (4.9)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in d:\m\python\lib\site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.11,>=2.10->tensorflow<2.11) (1.3.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in d:\m\python\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.11,>=2.10->tensorflow<2.11) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in d:\m\python\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.11,>=2.10->tensorflow<2.11) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in d:\m\python\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.11,>=2.10->tensorflow<2.11) (1.26.14)
+Requirement already satisfied: certifi>=2017.4.17 in d:\m\python\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.11,>=2.10->tensorflow<2.11) (2022.12.7)
+Collecting MarkupSafe>=2.1.1
+  Downloading MarkupSafe-2.1.2-cp310-cp310-win_amd64.whl (16 kB)
+Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in d:\m\python\lib\site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.11,>=2.10->tensorflow<2.11) (0.4.8)
+Requirement already satisfied: oauthlib>=3.0.0 in d:\m\python\lib\site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.11,>=2.10->tensorflow<2.11) (3.2.2)
+Installing collected packages: tensorboard-plugin-wit, libclang, keras, flatbuffers, wrapt, typing-extensions, termcolor, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard-data-server, protobuf, opt-einsum, MarkupSafe, markdown, keras-preprocessing, h5py, grpcio, google-pasta, gast, astunparse, absl-py, werkzeug, google-auth-oauthlib, tensorboard, tensorflow
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 4.22.1
+    Uninstalling protobuf-4.22.1:
+      Successfully uninstalled protobuf-4.22.1
+  Attempting uninstall: google-auth-oauthlib
+    Found existing installation: google-auth-oauthlib 1.0.0
+    Uninstalling google-auth-oauthlib-1.0.0:
+      Successfully uninstalled google-auth-oauthlib-1.0.0
+Successfully installed MarkupSafe-2.1.2 absl-py-1.4.0 astunparse-1.6.3 flatbuffers-23.3.3 gast-0.4.0 google-auth-oauthlib-0.4.6 google-pasta-0.2.0 grpcio-1.51.3 h5py-3.8.0 keras-2.10.0 keras-preprocessing-1.1.2 libclang-15.0.6.1 markdown-3.4.1 opt-einsum-3.3.0 protobuf-3.19.6 tensorboard-2.10.1 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.1 tensorflow-2.10.1 tensorflow-estimator-2.10.0 tensorflow-io-gcs-filesystem-0.31.0 termcolor-2.2.0 typing-extensions-4.5.0 werkzeug-2.2.3 wrapt-1.15.0
